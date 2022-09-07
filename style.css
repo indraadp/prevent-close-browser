@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 1.2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+#main {
+  height: auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4em;
+  background-color: #fff;
+}
+
+#main h1 {
+  margin-bottom: 4rem;
+  line-height: 1.4em;
+}
+
+.button {
+  background: #007aff;
+  margin: 35px auto;
+  padding: 8px 20px;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button a {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #0259b8;
+}
+
+.note {
+  margin: 2rem 0 3rem;
+}
+
+.donate {
+  margin: 6rem 0 3rem;
+  font-size: 16px;
+}
+
+.donate a {
+  color: #3300ff;
+  font-size: 14px;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+
+.donate a:hover {
+  color: #ff7b00;
+  text-decoration: underline;
+}
+
+#footer {
+  position: absolute;
+  font-size: 14px;
+  font-weight: 600;
+  color: #101010;
+  text-align: center;
+  line-height: 1.5em;
+  padding: 10px 0 15px;
+  width: 100%;
+  background-color: #fff;
+}
+
+#footer a {
+  font-size: 14px;
+  color: #101010;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
